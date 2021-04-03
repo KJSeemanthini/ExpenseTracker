@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+}
+
+.app {
+  font-family: Calibri;
+  display: flex;
+  flex-direction: column;
+}
+
+.expenses {
+  display: flex;
+  /* height: 10px;
+  width: 20px; */
+}
+
+.expense__add {
+  padding: 10px;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  /* height: 10px; */
+  /* width: 200px; */
+}
+
+.expense__subtract {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  border: 1px solid black;
+  /* background-color: red; */
+  /* height: 10px;
+  width: 20px; */
+}
+
+/* .eachTransaction {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+  border: 1px solid black;
+} */
+
+.eachTransactionminus {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+  background-color: rgb(231, 180, 180);
+  padding: 2px;
+}
+
+.eachTransactionplus {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+  background-color: rgb(179, 240, 199);
+  padding: 2px;
+}
+
+.remove_transaction {
+  height: 13px;
+  cursor: pointer;
+}
+
+.remove_transaction:hover {
+  transform: scale(1.5);
+}
+
+.minus {
+  color: red;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+
+.plus {
+  color: green;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+
+.transaction_metadata {
+  display: flex;
+  align-items: center;
+}
